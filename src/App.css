@@ -1,0 +1,22 @@
+@font-face{
+    font-family: 'Break';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Break.woff'), url('Break.woff') format('woff')
+}
+
+h1{
+    font-family: 'Break';
+    font-weight: 400;
+    color: #000000	;
+    text-decoration:overline underline double;
+}
+
+h2{
+    font-family: 'Break';
+
+}
+
+p{
+    font-family: 'Break';
+}
