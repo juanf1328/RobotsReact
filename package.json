@@ -1,6 +1,5 @@
 {
   "name": "robofriends",
-  "homepage": "https://juanf1328.github.io/RoboFriendsApp",
   "version": "0.2.0",
   "private": true,
   "dependencies": {
