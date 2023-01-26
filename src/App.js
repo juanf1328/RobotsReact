@@ -29,7 +29,7 @@ class App extends Component{
             return robot.name.toLowerCase().includes(this.state.searchfield.toLowerCase())
         })
         if(this.state.robots.length === 0){
-            return <h1>Loading</h1>
+            return <h1 className="tc">Loading</h1>
         } else{
         return(
             <div className="tc">
@@ -38,6 +38,7 @@ class App extends Component{
                 <CardList robots={filteredRobots} />
                 {/* <Scroll>
                 </Scroll> */}
+                <h1>V.0.2.1</h1>
             </div>
         );
     }
